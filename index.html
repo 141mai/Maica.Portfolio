@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maica Cerna | Portfolio</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+  <!-- Sparkle Overlay Container -->
+  <div id="sparkle-container"></div>
+
+  <!-- Dynamic Background Spheres -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+  <div class="bg-shape shape-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-sparkle"><i class="fa-solid fa-sparkles"></i></span>
+        Maica<span class="logo-dot">.Web</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> Skills</a>
+        <a href="#projects" class="nav-link"><i class="fa-regular fa-folder-open"></i> Projects</a>
+        <a href="#contact" class="nav-link"><i class="fa-regular fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="#about" class="mobile-nav-link"><i class="fa-regular fa-user"></i> About Me</a>
+    <a href="#skills" class="mobile-nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> Skills</a>
+    <a href="#projects" class="mobile-nav-link"><i class="fa-regular fa-folder-open"></i> Projects</a>
+    <a href="#contact" class="mobile-nav-link"><i class="fa-regular fa-paper-plane"></i> Contact Me</a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Open for Opportunities & Collaborations</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight-text">Maica Cerna</span> 🌸
+        </h1>
+        <p class="hero-subtitle">
+          IT Student & Front-End Developer crafting aesthetic, interactive, and user-focused web experiences with a touch of magic.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Work</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get in Touch</span>
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-number">IT21B</span>
+            <span class="stat-label">Academic Section</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">UI/UX Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Dedication</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="section-header">
+        <span class="section-tag">✨ Get To Know Me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="avatar-wrapper">
+            <div class="avatar-ring"></div>
+            <div class="avatar-box">
+              <i class="fa-solid fa-laptop-code avatar-icon"></i>
+            </div>
+          </div>
+          <h3 class="about-name">Princess Jamaica Cerna</h3>
+          <p class="about-role">Information Technology Student</p>
+          <p class="about-description">
+            Passionate about building responsive web applications, intuitive dynamic user interfaces, and modular backend code. I love blending functional programming logic with high-fidelity visual design.
+          </p>
+          <div class="tag-cloud">
+            <span class="pill-tag">Java OOP</span>
+            <span class="pill-tag">MySQL & MariaDB</span>
+            <span class="pill-tag">Tailwind CSS</span>
+            <span class="pill-tag">Cisco Networking</span>
+          </div>
+        </div>
+
+        <div class="about-details">
+          <div class="glass-card detail-card">
+            <div class="detail-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+              <h4>Education & Specialization</h4>
+              <p>BS Information Technology student focused on web architecture, database normalization, and interactive client-side design patterns.</p>
+            </div>
+          </div>
+
+          <div class="glass-card detail-card">
+            <div class="detail-icon"><i class="fa-solid fa-palette"></i></div>
+            <div>
+              <h4>UI/UX Aesthetic Mindset</h4>
+              <p>Dedicated to crafting soft, delightful, and highly dynamic web experiences with physics-based interactions, dark modes, and soft pastel palettes.</p>
+            </div>
+          </div>
+
+          <div class="glass-card detail-card">
+            <div class="detail-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <div>
+              <h4>Interests & Beyond</h4>
+              <p>When not coding in NetBeans or VS Code, I enjoy eSports strategy, anime visual aesthetic trends, and motorcycle mechanics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-header">
+        <span class="section-tag">🎀 Core Capabilities</span>
+        <h2 class="section-title">My Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-brands fa-html5 skill-icon html-color"></i>
+            <span class="skill-title">HTML5 & CSS3 / Tailwind</span>
+            <span class="skill-percent">50%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 95%;"></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-brands fa-js skill-icon js-color"></i>
+            <span class="skill-title">JavaScript (ES6+)</span>
+            <span class="skill-percent">40%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 88%;"></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-brands fa-java skill-icon java-color"></i>
+            <span class="skill-title">Java & Swing UI</span>
+            <span class="skill-percent">35%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 82%;"></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-solid fa-database skill-icon db-color"></i>
+            <span class="skill-title">MySQL & MariaDB</span>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-brands fa-figma skill-icon figma-color"></i>
+            <span class="skill-title">Figma & UI Wireframing</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-header">
+            <i class="fa-solid fa-network-wired skill-icon net-color"></i>
+            <span class="skill-title">Cisco Packet Tracer</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <span class="section-tag">🌷 Featured Work</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="web">Web Apps</button>
+        <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+        <button class="filter-btn" data-filter="system">Systems</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="glass-card project-card" data-category="web">
+          <div class="project-preview preview-cinepass">
+            <div class="preview-badge"><i class="fa-solid fa-ticket"></i> Live App</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">CinePass Ticket Booking System</h3>
+            <p class="project-desc">Single-page interactive movie ticket booking system with persistent authentication, dynamic seat layout mapping, and admin transaction clearing.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Tailwind CSS</span>
+              <span>Local Storage</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#" class="project-btn outline"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-card project-card" data-category="ui">
+          <div class="project-preview preview-studysync">
+            <div class="preview-badge"><i class="fa-solid fa-mobile-screen"></i> Figma UI</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">StudySync Mobile UI Concept</h3>
+            <p class="project-desc">High-fidelity 6-screen mobile application prototype designed in Figma featuring study schedules, micro-typography, and habit tracking.</p>
+            <div class="project-tags">
+              <span>Figma</span>
+              <span>UI/UX</span>
+              <span>Mobile Design</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-btn"><i class="fa-solid fa-eye"></i> Prototype</a>
+              <a href="#" class="project-btn outline"><i class="fa-brands fa-figma"></i> Specs</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="glass-card project-card" data-category="system">
+          <div class="project-preview preview-lan">
+            <div class="preview-badge"><i class="fa-solid fa-diagram-project"></i> Network</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Star Topology LAN Simulator</h3>
+            <p class="project-desc">10-host local area network configured in Cisco Packet Tracer with custom IP addressing templates, switch VLAN management, and testing tools.</p>
+            <div class="project-tags">
+              <span>Cisco</span>
+              <span>VLAN</span>
+              <span>Networking</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-btn"><i class="fa-solid fa-file-pdf"></i> Docs</a>
+              <a href="#" class="project-btn outline"><i class="fa-solid fa-download"></i> Topology</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <span class="section-tag">💌 Say Hello</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="glass-card contact-info">
+          <h3>Let's create something beautiful together!</h3>
+          <p>Feel free to reach out for web design projects, collaborations, or just a friendly chat.</p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <strong>maicacerna@gmail.com</strong>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span>Location</span>
+                <strong>Looc, Manduae, Cebu, City</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="glass-card contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="e.g. Monique" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="e.g. monique@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="4" placeholder="Write your sweet message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span>Send Message</span>
+            <i class="fa-regular fa-paper-plane"></i>
+          </button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Designed & Crafted with <i class="fa-solid fa-heart heart-icon"></i> by Princess Jamaica Cerna</p>
+      <p class="copyright">&copy; 2026 Maica.dev • All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
